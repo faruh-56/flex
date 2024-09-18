@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'TT Hoves', sans-serif;
+    color: #222;
+    margin-bottom: 100px;
+}
+
+section {
+    padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: 100px;
+}
+
+section.hello {
+    padding-top: 40px;
+    background-image: url(../img/html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top 20px right 40px;
+    background-size: 30%;
+}
+
+.logo {
+    height: calc(30px + (41 - 30) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseInfo {
+    display: flex;
+    gap: 30px 160px;
+    flex-wrap: wrap;
+    margin-top: calc(28px + (85 - 28) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(48px + (76 - 48) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseData {
+    font-size: 21px;
+    line-height: 140%;
+}
+
+.courseData .value {
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Chava', sans-serif;
+    font-size: calc(42px + (80 - 42) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 110%;
+}
+
+p {
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 300;
+    line-height: 140%;
+    margin-top: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.cta {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 328px;
+    padding: 20px 0px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+}
+
+button.purple {
+    background: #6E3ABA;
+    color: white;
+    border: 1px solid #6E3ABA;
+}
+
+button.white {
+    background: white;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+}
+
+section.job {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));;
+    gap: 70px 40px;
+}
+
+.emoji{
+    height: calc(180px + (210 - 180) * ((100vw - 375px) / (1280 - 375)));
+    width: calc(180px + (210 - 180) * ((100vw - 375px) / (1280 - 375)));
+}
+
+h2 {
+    width: 600px;
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 117%;
+    letter-spacing: 0.01em;
+}
+
+.codeS {
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.backend {
+    width: calc(328px + (450 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.student {
+    width: calc(328px + (450 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.coder {
+    width: calc(328px + (432 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.prof {
+    width: calc(328px + (477 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
